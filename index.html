@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Living Branch Ministries</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Home Page Section -->
+  <header class="hero" style="background-image: url('images/home-bg.jpg');">
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#ministries">Ministries</a></li>
+        <li><a href="#development">Development</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Living Branch Ministries</h1>
+      <p>Reaching the Nations with Love & Discipleship</p>
+    </div>
+    <div class="slider">
+      <img src="images/slide1.jpg" class="slide" alt="Slide 1" />
+      <img src="images/slide2.jpg" class="slide" alt="Slide 2" />
+      <img src="images/slide3.jpg" class="slide" alt="Slide 3" />
+    </div>
+  </header>
+
+  <!-- About Page Section -->
+  <section id="about" class="section" style="background-image: url('images/about-bg.jpg');">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Rev. Qamar ul Zaman and Radheem Zaman's vision of discipleship and national revival...</p>
+      <video controls src="videos/about.mp4"></video>
+    </div>
+  </section>
+
+  <!-- Ministries Page Section -->
+  <section id="ministries" class="section ministries">
+    <div class="container">
+      <h2>Our Ministries</h2>
+      <div class="cards">
+        <div class="card"><a href="ministries/discipleship.html">Discipleship</a></div>
+        <div class="card"><a href="ministries/church-planting.html">Church Planting</a></div>
+        <div class="card"><a href="ministries/bible-college.html">Bible College</a></div>
+        <!-- More ministries -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Development Page Section -->
+  <section id="development" class="section" style="background-image: url('images/development-bg.jpg');">
+    <div class="container">
+      <h2>Living Branch Development</h2>
+      <p>We help families in brick kilns, support youth, and run community projects...</p>
+    </div>
+  </section>
+
+  <!-- Gallery Page Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/gallery1.jpg" alt="Event 1">
+        <img src="images/gallery2.jpg" alt="Event 2">
+        <video controls src="videos/event.mp4"></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Page Section -->
+  <section id="contact" class="section contact" style="background-image: url('images/contact-bg.jpg');">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="mailto:info@livingbranch.org" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Living Branch Ministries. All rights reserved.</p>
+  </footer>
+</body>
+</html>
